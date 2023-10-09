@@ -3,13 +3,9 @@
 ## Introduction
 The case study is part#1 of the My Skill Data Analysis Bootcamp Case Project. By examining real-world scenarios, we aim to showcase how SQL empowers businesses to uncover insights, drive informed decision-making, and answering business questions. in this case, an E-Commerce company has been collecting data from its customer during the last 2 years of its operation. The collected data is used to help the management and operation for analyzing and answering some questions they face in their daily business operation. The questions are as follows:
 
-Of all the paid transaction took place during 2021:
-1. In what month did the maximum total transaction happen?
-2. In what month did the total customer, total order, and the total quantity number of product reach their maximums?
-
-Of all the paid transactions that took place during the 2022:
-3. What category of product that drove the maximum value of transaction?
-
+1. Of all the paid transaction took place during 2021, in what month did the maximum total transaction happen?
+2. Of all the paid transaction took place during 2021, in what month did the total customer, total order, and the total quantity number of product reach their maximum values?
+3. Of all the paid transactions that took place during the 2022, what category of product that drove the maximum value of transaction?
 4. By comparing the paid transaction value of each product category between year 2021 and 2022, what are the product categories that experienced improvement, and what are the product categories that experienced decrement of their corresponding transaction values during the period of 2021 and 2022?
 5. Display the top 10 sku_name (along with its corresponding category) based on the paid transaction value during the 2022. as well as the total number of customer, total_order, and total quantity!
 6. Display the top 5 of the mostly used payment method in 2022 for all paid transactions!
