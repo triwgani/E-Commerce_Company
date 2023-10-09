@@ -22,7 +22,7 @@ There are 4 datasets used in analyzing and answering the above questions, mainly
 3. The payment_detail table consists of 16 rows and 2 columns
 4. The sku_detail table consists of 36,554 rows and 5 columns
 
-![](Pict20.png)
+![](Pict20.PNG)
 
 All the four tables are correlated by the following fields: id and sku_id, payment_id and id, as well as customer_id and id. This implies that the database form a realtional database among others.
 
