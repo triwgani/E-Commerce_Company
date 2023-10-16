@@ -33,7 +33,8 @@ All the four tables are correlated by the following fields: id and sku_id, payme
 1. Based on the query result,
 
    ![QA1](https://github.com/triwgani/E-Commerce_Company/assets/139425980/94c13ab9-b74f-439d-910c-3939a2b96b55)
-   the total transaction (being paid) reaches its maximum during the November of 2021 (around 4.78 Billions).
+
+the total transaction (being paid) reaches its maximum during the November of 2021 (around 4.78 Billions).
 
 3. Based on the query result, we can conclude that the total unique customer, total_unique_order, and total_qty_order reached their maximums (13885, 22414, and 47385 respectively) in the November.
 4. Based on the query result, we can conclude that there are 15 product categories that drove the sales volume. Among of them, the Mobile & Tablets was in the first place that drove the maximum value of transaction in the year of 2022 with around 8.55 Billions of sales volume.
