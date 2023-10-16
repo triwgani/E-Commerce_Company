@@ -102,4 +102,4 @@ Based on the case explained, we can conclude that SQL is essential in managing, 
 4. Pakistani E-Commerce Datasets: [https://www.kaggle.com/datasets/zusmani/pakistans-largest-ecommerce-dataset](https://www.kaggle.com/datasets/zusmani/pakistans-largest-ecommerce-dataset)
 
 ## Acknowledgement
-Azka Nur Afifah, Wijaya Putra, Rizky Teguh Kurniawan, Achmad Nafila Rozie, and team from [My Skill.id](https://myskill.id)
+[Azka Nur Afifah](https://www.linkedin.com/in/azkanuraf/), [Wijaya Putra](https://www.linkedin.com/in/wijaya-putra-0780a3135/), [Rizky Teguh Kurniawan](https://www.linkedin.com/in/rizkitk/), [Achmad Nafila Rozie](https://www.linkedin.com/in/achmadrozie/), and team from [My Skill.id](https://myskill.id)
