@@ -22,20 +22,26 @@ There are 4 datasets used in analyzing and answering the above questions, mainly
 3. The payment_detail table consists of 16 rows and 2 columns
 4. The sku_detail table consists of 36,554 rows and 5 columns
 
-All the four tables are correlated by the following fields: id and sku_id, payment_id and id, as well as customer_id and id. This implies that the database form a realtional database among others.
+All the four tables are correlated by the following fields: id and sku_id, payment_id and id, as well as customer_id and id. This implies that the database form a realtional database among others. Below are what we can conclude from the corresponding datasets:
+- The tables are static dataset table and correlated among others.
+- The id field in the sku_detail table is correlated with sku_id field in the order_detail table, where both explain about the unique number of the product being sold or bought.
+- The payment_id field in the order_detail table is correlated with id field of the payment_detail table, where both describe the unique number of payment method being utilized in the purchases.
+- The last correlation depicted from the 4 tables is the customer_id in the order_detail table which is correlated with id field in the customer_detail table.
 
 ## Analyzing the data and Answering the questions
 
-1. Based on the query result, the total transaction (being paid) reaches its maximum during the November of 2021 (around 4.78 Billions).
-2. Based on the query result, we can conclude that the total unique customer, total_unique_order, and total_qty_order reached their maximums (13885, 22414, and 47385 respectively) in the November.
-3. Based on the query result, we can conclude that there are 15 product categories that drove the sales volume. Among of them, the Mobile & Tablets was in the first place that drove the maximum value of transaction in the year of 2022 with around 8.55 Billions of sales volume.
-4. Based on the Query result, it can be inferred that of all the 15 product categories, there 4 product categories that experienced decrement, i.e.: Men Fashion, Books, Soghaat, and Others. The rest of the categories experienced increment in their sales value, i.e.: Mobiles and Tablets, Women Fashion, Entertainment, Appliances, Superstore, Computing, Kids & Baby, Beauty & Grooming, health & Sports, Home & Living, as well as School & Education.
-5. The above query created the top 10 table result as depicted in the query result.
-6. Based on the query result, we can conclude that cod, Payaxis, Easypay, customercredit, and jazzwallet are in the top 5 payment methods used by customer with theirs corresponding total number of order 42609, 5341, 1443, 1378, and 1368, respectively.
-7. Based on the query result, Samsung is in the first place of brands with the highest transaction value of around 3.75B, followed by Apple in the second place with around 1.76B. The other 3 brands are Huawei, Lenovo, and Sonny with their transaction value of 1.01B, 393.55M, and 190.1M respectively.
-8. Based on the query result, the product sold from the Women Fashion category yields the highest profit growth with around 1.67% YoY, followed by Superstore in the second place with around 1.46% growth YoY, and Computing with 0.43% YoY in the third place. The negative growth (decrement) came from Kids & Baby, Men Fashion, Others, Soghaat, and Books, where Books reside on the bottom with -0.56% growth.
-9. Based on the query result, the top 5 sku_name with the highest contribution in year 2022 are Sanasafinaz_SS-3A, Sanasafinaz_SS-9B, Sanasafinaz_SS-13A, Sanasafinaz_SS-5B, and Sanasafinaz_SS-10A with total profit of around 3.49M, 3.15M, 3.01M, 2.9M, and 2.87M respectively.
-10. Based on the query result, there are 15 unique order of product categories that utilized the top 5 payment method (based on previous question No 6). The most unique order came from the Appliances product category, while the least unique order came from the Women Fashion product category.
+1. ![QA1](https://github.com/triwgani/E-Commerce_Company/assets/139425980/94c13ab9-b74f-439d-910c-3939a2b96b55)
+Based on the query result, the total transaction (being paid) reaches its maximum during the November of 2021 (around 4.78 Billions).
+
+3. Based on the query result, we can conclude that the total unique customer, total_unique_order, and total_qty_order reached their maximums (13885, 22414, and 47385 respectively) in the November.
+4. Based on the query result, we can conclude that there are 15 product categories that drove the sales volume. Among of them, the Mobile & Tablets was in the first place that drove the maximum value of transaction in the year of 2022 with around 8.55 Billions of sales volume.
+5. Based on the Query result, it can be inferred that of all the 15 product categories, there 4 product categories that experienced decrement, i.e.: Men Fashion, Books, Soghaat, and Others. The rest of the categories experienced increment in their sales value, i.e.: Mobiles and Tablets, Women Fashion, Entertainment, Appliances, Superstore, Computing, Kids & Baby, Beauty & Grooming, health & Sports, Home & Living, as well as School & Education.
+6. The above query created the top 10 table result as depicted in the query result.
+7. Based on the query result, we can conclude that cod, Payaxis, Easypay, customercredit, and jazzwallet are in the top 5 payment methods used by customer with theirs corresponding total number of order 42609, 5341, 1443, 1378, and 1368, respectively.
+8. Based on the query result, Samsung is in the first place of brands with the highest transaction value of around 3.75B, followed by Apple in the second place with around 1.76B. The other 3 brands are Huawei, Lenovo, and Sonny with their transaction value of 1.01B, 393.55M, and 190.1M respectively.
+9. Based on the query result, the product sold from the Women Fashion category yields the highest profit growth with around 1.67% YoY, followed by Superstore in the second place with around 1.46% growth YoY, and Computing with 0.43% YoY in the third place. The negative growth (decrement) came from Kids & Baby, Men Fashion, Others, Soghaat, and Books, where Books reside on the bottom with -0.56% growth.
+10. Based on the query result, the top 5 sku_name with the highest contribution in year 2022 are Sanasafinaz_SS-3A, Sanasafinaz_SS-9B, Sanasafinaz_SS-13A, Sanasafinaz_SS-5B, and Sanasafinaz_SS-10A with total profit of around 3.49M, 3.15M, 3.01M, 2.9M, and 2.87M respectively.
+11. Based on the query result, there are 15 unique order of product categories that utilized the top 5 payment method (based on previous question No 6). The most unique order came from the Appliances product category, while the least unique order came from the Women Fashion product category.
 
 ## Conclusion
 Based on the case explained, we can conclude that SQL is essential in managing, manipulating and analyzing large datasets. From the analysis being conducted, SQL can provide crucial insights and help make a data-driven decision for company that adopts its technologies.
